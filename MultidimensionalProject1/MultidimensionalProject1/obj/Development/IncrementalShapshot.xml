@@ -40,7 +40,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>83qlRBGO+SuoKs5MH3SE00blQ/o=17/03/2022 14:37:0717/03/2022 14:37:07</TimeStamp>
+        <TimeStamp>ps/O0MTWeTs2xBRunZwjTkCphyc=22/03/2022 14:35:2117/03/2022 14:37:07</TimeStamp>
         <ID>
           <String>Customer</String>
         </ID>
@@ -61,7 +61,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>hVciiVAPVfEM3gQ256ijKu0T8/I=17/03/2022 14:41:2417/03/2022 14:41:24</TimeStamp>
+        <TimeStamp>hG8oblh6JglAXFbx4m3auAUXrrc=17/03/2022 21:51:2217/03/2022 14:41:24</TimeStamp>
         <ID>
           <String>Stock Item</String>
         </ID>
@@ -117,7 +117,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>PAMGQGOrfrlu0691FGY1dO/6YN4=17/03/2022 14:49:3917/03/2022 14:49:38S8+oe49CTSMspvmO0obVRtdszKY=17/03/2022 14:49:3917/03/2022 14:49:38</TimeStamp>
+        <TimeStamp>NUJea0IWgWDmffpGa/Ou/Ji0cU0=17/03/2022 21:51:2217/03/2022 14:49:38S8+oe49CTSMspvmO0obVRtdszKY=17/03/2022 14:49:3917/03/2022 14:49:38</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -134,5 +134,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2022-03-17T13:50:50.253333Z</LastDeployed>
+  <LastDeployed>2022-03-24T12:30:24.55Z</LastDeployed>
 </DeploymentSnapshot>
