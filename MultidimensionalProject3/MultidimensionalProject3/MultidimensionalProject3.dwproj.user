@@ -4,7 +4,7 @@
       <Name>Development</Name>
       <Options>
         <TargetServer>LAPTOP-FSRH5JSR\MSSQLSERVER1</TargetServer>
-        <TargetDatabase>MultidimensionalProject1</TargetDatabase>
+        <TargetDatabase>MultidimensionalProject3</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>

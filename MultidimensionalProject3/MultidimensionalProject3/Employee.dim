@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="73bda331-7180-4650-b7f2-4113acaaa87a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5b96c605-c196-463d-91ea-05152a741ab7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Employee</ID>
   <Name>Employee</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,41 +42,41 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a15fd89c-f61b-47df-b336-15aa89cff420">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="592ac6a7-9a90-4912-8642-defe297499a8">
     <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="ebb3e6c4-5219-4d40-89f7-143648f449b0">
+  <ErrorConfiguration dwd:design-time-name="8a581873-7f31-454f-b512-15f79ae8bfce">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="c9a4d41d-e1cd-44dd-95b4-698a059495c2">
+    <Attribute dwd:design-time-name="8a768e2d-6df2-4071-a324-479ff2b75c50">
       <ID>Employee Key</ID>
       <Name>Employee Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="648bd2b1-76d1-4403-9fab-d790a219ec64">
+        <KeyColumn dwd:design-time-name="08aa53fe-6c3d-498d-a9c4-3897ad41a46c">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a467f422-b0c3-4e48-ac05-fcf0c5eb3fb0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94b1a2bd-f977-40c8-86ec-e562cc0af8fc">
             <TableID>Dimension_Employee</TableID>
             <ColumnID>Employee_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="8bafda76-fc8e-42c9-9eb8-a4f8e3286e62">
+        <AttributeRelationship dwd:design-time-name="dc49349a-ac60-417d-b66a-34f915eaa706">
           <AttributeID>Employee</AttributeID>
           <Name>Employee</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7ee88d4f-5068-4abe-af10-baa12b87fe89">
+        <AttributeRelationship dwd:design-time-name="bddceb18-484e-4c41-b796-e64beddcb5b2">
           <AttributeID>Preferred Name</AttributeID>
           <Name>Preferred Name</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="906c67ff-7832-4d7f-92d0-b5e374d64808">
+        <AttributeRelationship dwd:design-time-name="49a710ba-4b35-4b82-ac91-af871a79e811">
           <AttributeID>Is Salesperson</AttributeID>
           <Name>Is Salesperson</Name>
         </AttributeRelationship>
@@ -85,14 +85,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="037bb08b-3c4e-47e1-b634-934a104e5fc8">
+    <Attribute dwd:design-time-name="0288e7cc-67cf-4277-ac7e-4dc0b2285c15">
       <ID>Employee</ID>
       <Name>Employee</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4e5f210c-975f-416b-acf5-cd8746a07013">
+        <KeyColumn dwd:design-time-name="fea417d0-db7c-4b92-b662-2f45b47c49a9">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c6a815c0-e68b-4624-bfe9-e94bbf33c151">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b362ef3d-cb97-4914-b438-4dd8a31f7eca">
             <TableID>Dimension_Employee</TableID>
             <ColumnID>Employee</ColumnID>
           </Source>
@@ -102,14 +102,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7435de56-f538-4790-87e8-69151fbba49d">
+    <Attribute dwd:design-time-name="63f7181c-2610-4014-bcac-9c89c5a7f672">
       <ID>Preferred Name</ID>
       <Name>Preferred Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="439b6255-141a-4c27-96d6-905eac28727f">
+        <KeyColumn dwd:design-time-name="9830ddd5-47df-43e3-8e02-07cda9e9dfb4">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2b763f12-84d6-42af-9c00-54faecd458e9">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b5156d8-8658-4d7c-b5a2-f79ea037b467">
             <TableID>Dimension_Employee</TableID>
             <ColumnID>Preferred_x0020_Name</ColumnID>
           </Source>
@@ -119,13 +119,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="ae9f68e4-2ff1-4346-93c2-42a3e71882c3">
+    <Attribute dwd:design-time-name="de4f6d7f-29ca-412a-9e9c-5c040c2c6ec7">
       <ID>Is Salesperson</ID>
       <Name>Is Salesperson</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="acc03f83-8ecb-4108-be47-9c5a1ee52e6b">
+        <KeyColumn dwd:design-time-name="701160e6-1861-4cd0-be15-55a57cbbd616">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="457a3c94-b401-4a6a-8166-0e96004b9755">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3e3bed55-bd4c-4de7-80f1-a18e1c6820eb">
             <TableID>Dimension_Employee</TableID>
             <ColumnID>Is_x0020_Salesperson</ColumnID>
           </Source>

@@ -13,40 +13,19 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Date</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Customer</ID>
-      </Dimension>
-      <Dimension>
         <ID>City</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Employee</ID>
       </Dimension>
       <Dimension>
         <ID>Stock Item</ID>
       </Dimension>
       <Dimension>
-        <ID>Supplier</ID>
+        <ID>Employee</ID>
       </Dimension>
       <Dimension>
-        <ID>Transaction Type</ID>
+        <ID>Customer</ID>
       </Dimension>
       <Dimension>
-        <ID>Payment Method Staging</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Order</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Sale</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Payment Method</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Transaction</ID>
+        <ID>Date</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
@@ -66,14 +45,6 @@
             <Partitions>
               <Partition>
                 <ID>Sale</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Transaction</ID>
-            <Partitions>
-              <Partition>
-                <ID>Transaction</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
