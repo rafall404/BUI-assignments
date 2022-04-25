@@ -151,6 +151,7 @@
           <Name>Week Number</Name>
         </AttributeRelationship>
       </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -371,6 +372,11 @@
           <ID>Week Number</ID>
           <Name>Week Number</Name>
           <SourceAttributeID>ISO Week Number</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a5e40dcf-f936-4361-8c90-d6ba524a677e">
+          <ID>Date</ID>
+          <Name>Date</Name>
+          <SourceAttributeID>Date</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>

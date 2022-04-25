@@ -26,14 +26,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>p+Ubt6gjVxqqLMDcYCG2Hw4stMM=25/04/2022 12:22:0022/04/2022 12:06:38</TimeStamp>
+        <TimeStamp>gMLQdRhnB7/4N9TeAJ/S6YM6D1w=25/04/2022 19:21:4422/04/2022 12:06:38</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>6IBn5Apxksvhmf/vMTN9jU2aTK4=22/04/2022 21:17:2522/04/2022 12:08:06</TimeStamp>
+        <TimeStamp>OySV4cxpShfN9bHWW5+QwbXRYD0=25/04/2022 20:44:2122/04/2022 12:08:06</TimeStamp>
         <ID>
           <String>City</String>
         </ID>
@@ -61,14 +61,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>n/xDiiHcugVV2Ip8zw9lgjCFWYg=25/04/2022 14:27:1122/04/2022 17:03:19</TimeStamp>
+        <TimeStamp>6OPL6VqfWzUpQnFdYfKeJT4dOsA=25/04/2022 20:13:2222/04/2022 17:03:19</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>1YOd/kGLfLvvaKRARM98n7Qh+rs=25/04/2022 14:14:3222/04/2022 17:07:48qTCD5IkzW10V2kRSGhxiraOj89Q=22/04/2022 17:07:4822/04/2022 17:07:48</TimeStamp>
+        <TimeStamp>1vlHx9TRiPK6eh6hi7VDtfK90Hk=25/04/2022 15:52:2422/04/2022 17:07:48qTCD5IkzW10V2kRSGhxiraOj89Q=22/04/2022 17:07:4822/04/2022 17:07:48</TimeStamp>
         <ID>
           <String>Wide World Importers DW</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2022-04-25T12:27:16.903333Z</LastDeployed>
+  <LastDeployed>2022-04-25T18:44:31.536667Z</LastDeployed>
 </DeploymentSnapshot>

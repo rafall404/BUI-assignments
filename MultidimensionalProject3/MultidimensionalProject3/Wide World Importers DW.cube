@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="44" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4489" scrolltop="4560" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="23389" y="13176" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="44" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4489" scrolltop="-4175" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="23389" y="13176" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="0100000090019e330100065461686f6d61" />
             </font>
@@ -395,7 +395,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>4560</Value>
+      <Value>-4175</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -1217,4 +1217,25 @@
   <Source dwd:design-time-name="9132efee-e63a-4bf8-8b86-21e2fb4ca16a">
     <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
+  <Kpis>
+    <Kpi dwd:design-time-name="a69a4fdd-9ee8-46c3-9018-cbe6c2285ace">
+      <ID>KPI</ID>
+      <Name>ProfitKPI</Name>
+      <AssociatedMeasureGroupID>Sale</AssociatedMeasureGroupID>
+      <Value>[Measures].[Profit]</Value>
+      <Goal>20000000</Goal>
+      <Status>CASE
+WHEN kpiValue('ProfitKPI') &gt; kpiGoal('ProfitKPI') THEN 1
+WHEN kpiValue('ProfitKPI') &lt; kpiGoal('ProfitKPI') THEN -1
+ELSE 0
+END</Status>
+      <Trend>CASE
+WHEN ([Date].[Calendar Year], [Measures].[Profit]) &gt; ([Date].[Calendar Year].PREVMEMBER, [Measures].[Profit]) THEN 1 
+WHEN ([Date].[Calendar Year], [Measures].[Profit]) &lt; ([Date].[Calendar Year].PREVMEMBER, [Measures].[Profit]) THEN -1
+ELSE 0
+END</Trend>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Variance Arrow</StatusGraphic>
+    </Kpi>
+  </Kpis>
 </Cube>
